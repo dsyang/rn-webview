@@ -9,6 +9,8 @@ jobs:
   build:
     name: EAS Build - Development
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     
     steps:
       - name: Check for EXPO_TOKEN
